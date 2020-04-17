@@ -4,23 +4,26 @@ body {
 }
 h1 {
   text-align: center;
+  font-size: 45px;
 }
-hr {
+table,
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 25px;
+}
+td {
+  width: 90px;
+  height: 90px;
+}
+a {
+  text-decoration: none;
   color: black;
 }
-ul {
-  width: 85%;
-  margin-left: 60px;
-  list-style-type: none;
+a:hover {
+  color: #e6e6e6;
 }
-.list {
-  float: left;
-  width: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  background-color: rgba(131, 255, 102, 0.5);
-  text-align: center;
-  font-size: 30px;
+.fir {
+  background-color: #c7c7c7;
 }
