@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+hr {
+  color: black;
+}
+ul {
+  width: 85%;
+  margin-left: 60px;
+  list-style-type: none;
+}
+.list {
+  float: left;
+  width: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(131, 255, 102, 0.5);
+  text-align: center;
+  font-size: 30px;
+}
